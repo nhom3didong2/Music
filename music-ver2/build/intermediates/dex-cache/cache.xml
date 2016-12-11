@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_0635e617b3c85136db7846f179819fc6be8a2310.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_1bcf10b619e6bac86428c256363a551411bef2a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_0539bf46e81785cec8362fdaed0b6eea73f86f7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_faab84305341c8b2b9b4607e0eff9d57050fc511.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_ee88084f4789062d2512ce1860cd3b8ebcb6bc87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_5abcd2ae353c06c6b4fb1f3a40f01a4cc531db45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_a69773fb3fcc67690584937a7e44bf8f7c07ee13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_92ff67ee233b9da65e8c40f37a6fda2f0e968dc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_39af1f0acd74ea6486d7ad3aba63627991d32dfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_2ab1adc5ea37bfe7a53f6b01c0622e779301396e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff437f06f992c6b3a5482fcf2e9938334ce4e53c">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_fcac7070579950536c4463089f37c65d1327e2eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_ebc0ead7cff336e5dd786137435b9687c2576fc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd9c9a88c87821a2c2aeb8bc05c16752a0a8cfea">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\instant-run_8a27e87b4b04c12fe49114eb4c47483ad014e8f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_a7142eaa7e68756d37aa1d61e4b58aa24fa1d50e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_ae2106f7f6b7f5866e5e174a05779a05262190a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_98d8be7130c088048957bfc21916c3befc710dc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_eb578f7dc356b031ccac106f5cedb47c501e4efc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_a574c97220b0a33adaed67c57a81d616506b57d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_277908d684aaece6719e507e611275ccc69a19e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="D:\adt-androidstudio\verchinh\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_7a0e12569cd90fb6cdefb73b1fa8d9174560cf37.jar" />
+    </item>
+
+</items>
