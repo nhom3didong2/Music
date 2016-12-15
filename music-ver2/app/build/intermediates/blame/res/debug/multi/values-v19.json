@@ -1,0 +1,108 @@
+[
+    {
+        "outputFile": "D:\\music-ver2\\trunk\\music-ver2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "D:\\music-ver2\\trunk\\music-ver2\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 89,
+                    "endOffset": 398
+                },
+                "from": {
+                    "file": "D:\\music-ver2\\trunk\\music-ver2\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 90,
+                        "endOffset": 831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 403,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 548
+                },
+                "from": {
+                    "file": "D:\\music-ver2\\trunk\\music-ver2\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 589,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 553,
+                    "endColumn": 79,
+                    "endOffset": 628
+                },
+                "from": {
+                    "file": "D:\\music-ver2\\trunk\\music-ver2\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 839,
+                        "endColumn": 80,
+                        "endOffset": 915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 633,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 892
+                },
+                "from": {
+                    "file": "D:\\music-ver2\\trunk\\music-ver2\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 320,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 583
+                    }
+                }
+            }
+        ]
+    }
+]

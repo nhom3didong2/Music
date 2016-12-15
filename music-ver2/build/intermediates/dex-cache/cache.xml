@@ -2,184 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2563538527b0a7b343757dbb2430dfebaa5eb699">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_7d5ce35f970d05fbd9ddb63de46fdfe703892013.jar" />
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_743a0079c4a2547db77fac9c63ac62905dcb86ac\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_58634f0f10379904a4a16575315f882bb8b00e5a.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_053d431190d44f31891d4ae327a19e243234cc8e.jar" />
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_053d431190d44f31891d4ae327a19e243234cc8e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_48ca25b877f2efeb35e1ead54226d4e28683881d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f45fb354e73129bc52daf2f9d330399cb66d5ac2">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\instant-run_689fde7082da8fd2f9739bb9a38796195c3baa57.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_7b9b2422b1e36355998c0ab41725c10e6c83152a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_b2e4274bd0b93f25d9cd39ac53d931f2a9e62874.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_800d6bd953a59d6bbf31f0009d709b97092b71d4.jar" />
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4bddda129aab3b8dba319df5a8a12bb7648d5510\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_2da292d84eb45f3a3c98ed71baa97b15c9e46093.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_1322ad6aa865dcc8ff49ec1e50d59c2838467d95.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_f34ab4774f693e408c0d42ebe54a73baa98b8655.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_68bffddfdfccbfa7422002f4aed14e6f2db6a6ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_b9ed2fe6b8123b8fa925cdcd39ca0caa116f1e0e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_0b00339fffd467d5c3e1f4178f833e25e0e4f13c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_7753709738cedbcd46147542e0b403b4d8bc5d28.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_daa030e316d61bb8d58b809496710b2e49c050d7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_36f6c9f4ebe178857704a1e37ac70e87e80db4d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_86acaebe58a1ddeb321bb82f23b2b8bd687d2f1a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_3950da12f69c36230c1655c091e0399a8a7ce57f.jar" />
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_a573e5a38b8b940f61f74f3b0a1b8e05418526c7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\music2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="D:\music2\trunk\music-ver2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_7f31cbbe767eb84e18aeec50a06d66f5e19ed573.jar" />
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f73d4cbbda73d359696392f5b3d81b6c6c0193e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_55426547b3798893235a5c71830266b88e059af5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_44fcc1bb433a5dd7edc5017fe9ba05409e2fbb51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_47adfbb897d27ab9a33ceb3939f8b6aa63781a37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_b6e218927e7dcbd4f263168352496849c856364f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_549343253139784bb031950483d01c99837562c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_caf3c092a3452561576ada154233c2a254bbd399\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="13eec85c5380c1082890237b16a29a327ba54de3">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9134218108b53d4a720b8e77fcfefed33e0efd26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_91bf78d7b6feabb6b2e896973699b2b9d4336fdd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_37ab8a3c9bac14649e9f65ec680dc038e479d066\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_c23fc0e30f42984c81abfa3fba65e87d87383459\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_8dd12fe966b03a4a2bcf82d787c3ca4a80ee01ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_f9745782ba5b17f4bc59e4014f6cc530a8d2fbc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_129c627d1ce0024a19f4c6e4e93d06c5de592dff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_0109409374d9cf04cceda0ed60db0c82e385256c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\music-ver2\trunk\music-ver2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="812a7d3567675b6c96b42566e27bd9ecdb1ab5e3">
+        <dex dex="D:\music-ver2\trunk\music-ver2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b146db9a17150e3505982b5589352776b9bb2680\classes.dex" />
     </item>
 
 </items>
