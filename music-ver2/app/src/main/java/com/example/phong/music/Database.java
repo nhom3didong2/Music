@@ -199,13 +199,35 @@ public class Database extends SQLiteOpenHelper{
        // Toast.makeText(context,"null",Toast.LENGTH_LONG).show();
         this.close();
     }
+    public long updateMusic(Music old, Music newvalue) {
+        createOrOpenDatabase();
+        ContentValues values = new ContentValues();
+        values.put("Music_patch", newvalue.getPatch());
+        values.put("Music_name", newvalue.getMusic_name());
+        values.put("Music_folderName",newvalue.getFolder_name());
+        long ok = db.update("music", values, "Music_patch = ?",
+                new String[] { old.getPatch() });
+        if (ok != -1) {
+            Toast.makeText(context, "The student is updated on the Database",
+                    Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(context,
+                    "The student is NOT updated on the Database",
+                    Toast.LENGTH_LONG).show();
+        }
+        this.close();
+        return ok;
+    }
     public void deleteMusic(String patch) {
         createOrOpenDatabase();
         db.delete("music", "Music_patch = ?", new String[] { patch });
         this.close();
     }
+
     @Override
     public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
         // TODO Auto-generated method stub
     }
+
+
 }

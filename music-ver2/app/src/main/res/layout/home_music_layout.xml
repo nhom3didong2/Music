@@ -84,10 +84,10 @@
 
                 <ImageButton
                     android:id="@+id/btnRepeat"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@null"
+                    android:layout_marginBottom="5dp"
                     android:gravity="left"
                     android:scaleType="fitCenter"
                     android:src="@drawable/norepeat" />
@@ -97,9 +97,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
-                    android:layout_marginLeft="30dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/prev_1" />
+                    android:src="@drawable/prev" />
 
                 <ImageButton
                     android:id="@+id/btnPlay"
@@ -107,26 +106,24 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    android:layout_marginTop="5dp"
                     android:background="@drawable/btnplay"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/play_1" />
+                    android:src="@drawable/play" />
 
                 <ImageButton
                     android:id="@+id/btnNext"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
-                    android:layout_marginRight="30dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/next_1" />
+                    android:src="@drawable/next" />
 
                 <ImageButton
                     android:id="@+id/btnShuffle"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@null"
+                    android:layout_marginBottom="5dp"
                     android:gravity="left"
                     android:scaleType="fitCenter"
                     android:src="@drawable/noshuffle" />

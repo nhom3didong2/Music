@@ -31,7 +31,7 @@ public class Frag3 extends Fragment {
 		for (int i = 0; i < listSongs.size(); i++)
 			arr.add(listSongs.get(i).getMusic_name().toString());
 
-		MyAdapter adapter = new MyAdapter(this.getActivity(), R.layout.item_list_music, arr);
+		MyAdapter adapter = new MyAdapter(this.getActivity(), R.layout.item_list_music, arr,listSongs);
 		ListView lv = (ListView) view.findViewById(R.id.lvSong);
 		lv.setAdapter(adapter);
 

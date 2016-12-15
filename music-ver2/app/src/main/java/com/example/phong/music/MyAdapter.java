@@ -2,6 +2,7 @@ package com.example.phong.music;
 /**
  * Created by phong on 12/5/2016.
  */
+import com.example.phong.music.Database;
 import android.app.Dialog;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.Toolbar;
@@ -9,6 +10,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -36,8 +38,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.phong.music.Music;
+import com.example.phong.music.MainLayoutActivity;
 
-
+import java.io.File;
 import java.util.ArrayList;
 
 public class MyAdapter extends ArrayAdapter<String> {
@@ -45,12 +48,15 @@ public class MyAdapter extends ArrayAdapter<String> {
 	private Activity context;
 	private int idLayout;
 	static ArrayList<String> arr;
+	ArrayList<Music> usedMusics;
+	private Database db;
 
-	public MyAdapter(Activity context, int idLayout, ArrayList<String> arr) {
+	public MyAdapter(Activity context, int idLayout, ArrayList<String> arr,ArrayList<Music> list) {
 		super(context, idLayout, arr);
 		this.context = context;
 		this.idLayout = idLayout;
 		this.arr = arr;
+		this.usedMusics = list;
 	}
 	private class ViewHolder{
 		TextView songName;
@@ -60,6 +66,7 @@ public class MyAdapter extends ArrayAdapter<String> {
 	@NonNull
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent) {
+		db = new Database(context);
 		if (convertView == null){
 			convertView = context.getLayoutInflater().inflate(idLayout, null);
 			holder = new ViewHolder();
@@ -95,6 +102,7 @@ public class MyAdapter extends ArrayAdapter<String> {
 										}
 										case R.id.del:
 											Delplaylist(position);
+											//notifyDataSetChanged();
 											break;
 										default:
 											break;
@@ -115,7 +123,7 @@ public class MyAdapter extends ArrayAdapter<String> {
 
 		return convertView;
 	}
-	void Delplaylist(int position){
+	void Delplaylist(final int position){
 		final Dialog dialog = new Dialog(context);
 		dialog.setContentView(R.layout.dialog_del_layout);
 		dialog.setTitle("Do you want delete");
@@ -125,6 +133,15 @@ public class MyAdapter extends ArrayAdapter<String> {
 		btnDel.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
+				String patch = usedMusics.get(position).getPatch();
+				Log.d("t",patch);
+				deleteSong(patch,db);
+
+				Frag1.arr.remove(position);
+				Frag1.adapter.notifyDataSetChanged();
+
+				dialog.cancel();
+
 			}
 		});
 		btnCancel.setOnClickListener(new View.OnClickListener() {
@@ -136,6 +153,7 @@ public class MyAdapter extends ArrayAdapter<String> {
 	}
 	void Addplaylist(int position){
 		final int p = position;
+		//File file = new File();
 		final Dialog dialog = new Dialog(context);
 		dialog.setContentView(R.layout.dialog_list_layout);
 		dialog.setTitle("New Playlist");
@@ -176,5 +194,11 @@ public class MyAdapter extends ArrayAdapter<String> {
 				dialog.cancel();
 			}
 		});
+	}
+
+	private void deleteSong(String patch, Database db){
+		File file = new File(patch);
+		file.delete();
+		db.deleteMusic(patch);
 	}
 }

@@ -3,9 +3,12 @@
 
     <item
         android:id="@android:id/background"
-        android:drawable="@drawable/background_fill"/>
-    <item android:id="@android:id/progress">
-        <clip android:drawable="@drawable/progess_fill" />
+        android:drawable="@drawable/scrubber1">
+    </item>
+
+    <item
+        android:id="@android:id/progress">
+        <clip android:drawable="@drawable/scrubber" />
     </item>
 
 </layer-list>

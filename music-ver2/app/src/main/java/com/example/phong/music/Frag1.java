@@ -48,6 +48,8 @@ import java.util.ArrayList;
 public class Frag1 extends Fragment{
 
 	private ArrayList<Music> listSongs;
+	public static MyAdapter adapter;
+	public static ArrayList<String> arr;
 	public Frag1(){
 
 	}
@@ -60,12 +62,12 @@ public class Frag1 extends Fragment{
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		View view = inflater.inflate(R.layout.listmusic_fragment_layout, container, false);
-		ArrayList<String> arr = new ArrayList<String>();
+		arr = new ArrayList<String>();
 
 		for (int i = 0; i < listSongs.size(); i++)
 			arr.add(listSongs.get(i).getMusic_name().trim());
 
-		MyAdapter adapter = new MyAdapter(this.getActivity(), R.layout.item_list_music, arr);
+		adapter = new MyAdapter(this.getActivity(), R.layout.item_list_music, arr,listSongs);
 		ListView lv = (ListView) view.findViewById(R.id.lvSong);
 		lv.setAdapter(adapter);
 
@@ -81,5 +83,9 @@ public class Frag1 extends Fragment{
 
 		return view;
 	}
+//	public static void updateListView(){
+//		adapter.notifyDataSetChanged();
+//
+//	}
 }
 

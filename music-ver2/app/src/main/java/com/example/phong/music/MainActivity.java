@@ -172,14 +172,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
                 flagPlay = false;
-               // btnPlay.setImageResource(R.drawable.play_1);
+                flagReply = false;
+                position = 0;
+                btnPlay.setImageResource(R.drawable.play);
                 myHandler.removeCallbacks(updateTime);
                 txtStartTime.setText(String.format("%d:%d", 0, 00));
-                    if (position < listSongs.size() - 1) {
-                        position += 1;
-                        musicPatch = listSongs.get(position).getPatch();
-                        moveSong(musicPatch);
-                    }
+                noRepeat();
             }
         });
         playMusic();
@@ -199,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
        btnRepeat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (flagReply==true) {
+                if (!flagReply) {
                     Repeat();
                 } else{
                     noRepeat();
@@ -288,15 +286,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
                 flagPlay = false;
-              //  btnPlay.setImageResource(R.drawable.play_1);
+                btnPlay.setImageResource(R.drawable.play);
                 myHandler.removeCallbacks(updateTime);
                 txtStartTime.setText(String.format("%d:%d", 0, 00));
                 //auto next
-                    if (position < listSongs.size() - 1) {
-                        position += 1;
-                        musicPatch = listSongs.get(position).getPatch();
-                        moveSong(musicPatch);
-                    }
+                if (position < listSongs.size() - 1) {
+                    position += 1;
+                    flagReply = false;
+                    musicPatch = listSongs.get(position).getPatch();
+                    moveSong(musicPatch);
+                }
+
             }
         });
     }
@@ -304,7 +304,7 @@ public class MainActivity extends AppCompatActivity {
     // play music
     private void playMusic() {
         if (!flagPlay) {
-            btnPlay.setImageResource(R.drawable.pause_1);
+            btnPlay.setImageResource(R.drawable.pause);
             finalTime = mPlayler.getDuration();
             updateTextFinal();
             flagPlay = true;
@@ -319,7 +319,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void pauseMusic() {
         mService.pauseMusic(mPlayler);
-        btnPlay.setImageResource(R.drawable.play_1);
+        btnPlay.setImageResource(R.drawable.play);
         flagPlay = false;
         myHandler.removeCallbacks(updateTime);
     }
@@ -346,20 +346,20 @@ public class MainActivity extends AppCompatActivity {
     }*/
     //reply
     private void Repeat() {
-        if (flagReply==true) {
+        if (!flagReply) {
+            flagReply = true;
             btnRepeat.setImageResource(R.drawable.repeat_1);
             playMusic();
         }
     }
 
     private void noRepeat() {
-        if (flagReply) {
-            if (position < listSongs.size() - 1) {
-                btnRepeat.setImageResource(R.drawable.norepeat);
-                position += 1;
-                musicPatch = listSongs.get(position).getPatch();
-                moveSong(musicPatch);
-            }
+        if (position < listSongs.size() - 1) {
+            btnRepeat.setImageResource(R.drawable.norepeat);
+            position += 1;
+            flagReply = false;
+            musicPatch = listSongs.get(position).getPatch();
+            moveSong(musicPatch);
         }
     }
     private void moveSong(String uri) {

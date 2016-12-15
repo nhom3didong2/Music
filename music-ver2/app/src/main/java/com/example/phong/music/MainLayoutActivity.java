@@ -3,10 +3,14 @@ package com.example.phong.music;
  * Created by phong on 12/5/2016.
  */
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -50,6 +54,20 @@ public class MainLayoutActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_layout);
+        if (ActivityCompat.checkSelfPermission(MainLayoutActivity.this,
+                Manifest.permission.READ_EXTERNAL_STORAGE)
+                != PackageManager.PERMISSION_GRANTED) {
+
+
+
+                // No explanation needed, we can request the permission.
+
+                ActivityCompat.requestPermissions(MainLayoutActivity.this,
+                        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE},0);
+
+
+            }
+
 
         db = new Database(getApplicationContext());
 
@@ -57,10 +75,10 @@ public class MainLayoutActivity extends AppCompatActivity
         usedMusics = new ArrayList<Music>();
         //listSongs = new ArrayList<File>();
         // get data from new songs or the first run1
+        Log.d("test1", System.getenv("SECONDARY_STORAGE") + "");
         try {
+            //File files = new File(System.getenv("SECONDARY_STORAGE"));
             listSongs = findSongs(Environment.getExternalStorageDirectory());
-
-           // Log.d("test1", dataMusics.size() + "");
             // Toast.makeText(this,listSongs.size(),Toast.LENGTH_LONG).show();
             db.writeMusics(dataMusics);
 
@@ -72,7 +90,7 @@ public class MainLayoutActivity extends AppCompatActivity
         }
 
         //thanh cong
-
+        // cai nut xoa bai hat dau my adapter
 
         //Database db = new Database(MainLayoutActivity.this);
         // db.writeMusic(patches);
