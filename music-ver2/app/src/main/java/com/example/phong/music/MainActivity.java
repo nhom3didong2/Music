@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     static MediaPlayer mPlayler ;
     private boolean flagPlay = false;
     private boolean flagReply = false;
-    //private boolean isShuffle= false;
+    private boolean isShuffle= false;
     private float currentTime = 0;
     private float finalTime = 0;
     private Handler myHandler = new Handler();
@@ -48,16 +48,18 @@ public class MainActivity extends AppCompatActivity {
     private ImageView back;
     private ImageButton btnPlay;
     private ImageButton btnRepeat;
-    //private ImageButton btnShuffle;
+    private ImageButton btnShuffle;
     private TextView txtStartTime;
     private TextView txtFinalTime;
    // private ArrayList<File> arrSongFile;
     private int position = 0;
     private TextView songName;
     private ImageView iv;
-    private Animation animation;
+    private Animation animation , animation2;
     String musicPatch;
     private ArrayList<Music> listSongs ;
+    private int ranPositon;
+    private String currentPatch = null;
     ServiceConnection conn = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
@@ -78,9 +80,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.app_bar_music_layout);
 
-        final Animation animation2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.animfadeout);
-        final ImageView iv = (ImageView) findViewById(R.id.ivMidImage);
-        final Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate2);
+        animation2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.animfadeout);
+        iv = (ImageView) findViewById(R.id.ivMidImage);
+         animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate2);
         iv.startAnimation(animation);
 
 
@@ -132,20 +134,27 @@ public class MainActivity extends AppCompatActivity {
 
         Database db = new Database(this);
         db.readMusics(listSongs);
-
         musicPatch = listSongs.get(position).getPatch();
+        flagReply = false;
+        //show name
+        songName = (TextView) findViewById(R.id.txtitem_song);
+        songName.setText(listSongs.get(position).getMusic_name());
+        Log.d("test",position+"");
+        Log.d("test",listSongs.get(position).getMusic_name());
+
+        buidMediaPlayer(musicPatch);
+
 
         txtStartTime = (TextView) findViewById(R.id.txtStart);
         txtFinalTime = (TextView) findViewById(R.id.txtEnd);
         Intent intent = new Intent(getApplicationContext(), MusicService.class);
         bindService(intent, conn, Context.BIND_AUTO_CREATE);
 
-        //show name
-        songName = (TextView) findViewById(R.id.txtitem_song);
+
         Log.d("test",musicPatch);
         //mPlayler = new MediaPlayer();
 
-          buidMediaPlayer(musicPatch);
+
         //kéo thả seekbar
         seekBar = (SeekBar) findViewById(R.id.seekBar);
         seekBar.setMax(mPlayler.getCurrentPosition());
@@ -167,41 +176,41 @@ public class MainActivity extends AppCompatActivity {
         });
         btnPlay = (ImageButton) findViewById(R.id.btnPlay);
         btnRepeat = (ImageButton) findViewById(R.id.btnRepeat);
-        //phát nhạc mặc định
-        mPlayler.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            @Override
-            public void onCompletion(MediaPlayer mediaPlayer) {
-                flagPlay = false;
-                flagReply = false;
-                position = 0;
-                btnPlay.setImageResource(R.drawable.play);
-                myHandler.removeCallbacks(updateTime);
-                txtStartTime.setText(String.format("%d:%d", 0, 00));
-                noRepeat();
-            }
-        });
+
+        btnRepeat.setImageResource(R.drawable.norepeat);
+        flagPlay = false;
         playMusic();
-        /*//shuffle
+
+
+        btnShuffle = (ImageButton)findViewById(R.id.btnShuffle);
         btnShuffle.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                if(isShuffle == false){
-                   noShuffle();
+                if(!isShuffle){
+                    btnShuffle.setImageResource(R.drawable.shuffle);
+                    isShuffle = true;
                 }else{
-                    Shuffle();
+                    btnShuffle.setImageResource(R.drawable.noshuffle);
+                    isShuffle = false;
                 }
             }
-        });*/
+        });
         //reply
        btnRepeat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (!flagReply) {
                     Repeat();
+                    btnRepeat.setImageResource(R.drawable.repeat_1);
+                    flagReply = true;
                 } else{
                     noRepeat();
+                    btnRepeat.setImageResource(R.drawable.norepeat);
+                    flagReply = false;
                 }
+                Log.d("test",flagReply+"");
+                Log.d("test",mPlayler.isLooping()+"");
             }
         });
         //play
@@ -210,9 +219,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (!flagPlay) {
                     playMusic();
+
+                    flagPlay = true;
                 } else {
                     pauseMusic();
+
+                    flagPlay = false;
                 }
+
             }
         });
 
@@ -243,14 +257,18 @@ public class MainActivity extends AppCompatActivity {
                 Animation animation = new AlphaAnimation(1.0f,0.0f);
                 animation.setDuration(50);
                 btnNext.startAnimation(animation);
-                if (position < listSongs.size() - 1) {
-                    position += 1;
-                    musicPatch = listSongs.get(position).getPatch();
-                    moveSong(musicPatch);
-                } else {
-                    musicPatch = listSongs.get(0).getPatch();
-                    position = 0;
-                    moveSong(musicPatch);
+                if(!isShuffle) {
+                    if (position < listSongs.size() - 1) {
+                        position += 1;
+                        musicPatch = listSongs.get(position).getPatch();
+                        moveSong(musicPatch);
+                    } else {
+                        musicPatch = listSongs.get(0).getPatch();
+                        position = 0;
+                        moveSong(musicPatch);
+                    }
+                }else{
+                    autoNextRandom();
                 }
             }
         });
@@ -280,25 +298,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // buid MediaPlayer
-    private void buidMediaPlayer(String uriL) {
+    private void buidMediaPlayer(final String uriL) {
         mPlayler= MediaPlayer.create(this,Uri.parse(musicPatch));
         mPlayler.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
-                flagPlay = false;
-                btnPlay.setImageResource(R.drawable.play);
-                myHandler.removeCallbacks(updateTime);
                 txtStartTime.setText(String.format("%d:%d", 0, 00));
-                //auto next
-                if (position < listSongs.size() - 1) {
-                    position += 1;
-                    flagReply = false;
-                    musicPatch = listSongs.get(position).getPatch();
-                    moveSong(musicPatch);
-                }
-
+                    if(!flagReply && !isShuffle){
+                        autoNext();
+                    }else{
+                        if(isShuffle && !flagReply){
+                            autoNextRandom();
+                        }
+                    }
             }
         });
+
+        if(flagReply){
+            Repeat();
+        }else{
+            noRepeat();
+        }
+
     }
 
     // play music
@@ -307,60 +328,36 @@ public class MainActivity extends AppCompatActivity {
             btnPlay.setImageResource(R.drawable.pause);
             finalTime = mPlayler.getDuration();
             updateTextFinal();
-            flagPlay = true;
             mService.playMusic(mPlayler);
+            String txtitem_song;
             //show name
-            String txtitem_song = listSongs.get(position).getMusic_name();
+            if(isShuffle)
+                txtitem_song = listSongs.get(ranPositon).getMusic_name();
+            else
+                txtitem_song = listSongs.get(position).getMusic_name();
             songName.setText(txtitem_song);
             seekBar.setMax((int) finalTime);
             myHandler.postDelayed(updateTime, 100);
+            iv.startAnimation(animation);
         }
     }
 
     private void pauseMusic() {
-        mService.pauseMusic(mPlayler);
         btnPlay.setImageResource(R.drawable.play);
-        flagPlay = false;
+        mService.pauseMusic(mPlayler);
         myHandler.removeCallbacks(updateTime);
-    }
-    /*//shuffle
-    private void noShuffle() {
-        if (flagReply == false) {
-            btnShuffle.setImageResource(R.drawable.noshuffle);
-            if (position < arrSongFile.size() - 1) {
-                position += 1;
-                uri = Uri.parse(arrSongFile.get(position).toString());
-                moveSong(uri);
-                playMusic(position);
-            }
-        }
-    }
+        iv.clearAnimation();
 
-    private void Shuffle() {
-        if (isShuffle == true){
-            btnShuffle.setImageResource(R.drawable.shuffle);
-            Random random = new Random();
-            position = random.nextInt((arrSongFile.size() - 1) - 0 + 1 ) + 0;
-            playMusic(position);
-        }
-    }*/
+    }
     //reply
     private void Repeat() {
-        if (!flagReply) {
-            flagReply = true;
-            btnRepeat.setImageResource(R.drawable.repeat_1);
-            playMusic();
-        }
+        mPlayler.setLooping(true);
+
     }
 
     private void noRepeat() {
-        if (position < listSongs.size() - 1) {
-            btnRepeat.setImageResource(R.drawable.norepeat);
-            position += 1;
-            flagReply = false;
-            musicPatch = listSongs.get(position).getPatch();
-            moveSong(musicPatch);
-        }
+        mPlayler.setLooping(false);
+
     }
     private void moveSong(String uri) {
         mPlayler.release();
@@ -373,5 +370,24 @@ public class MainActivity extends AppCompatActivity {
         unbindService(conn);
         super.onDestroy();
 
+    }
+    private  void autoNext(){
+        //auto next
+        if (position < listSongs.size() - 1) {
+            position += 1;
+            flagReply = false;
+            musicPatch = listSongs.get(position).getPatch();
+            moveSong(musicPatch);
+        }
+    }
+
+    private void autoNextRandom(){
+        Random random = new Random();
+        ranPositon = random.nextInt(listSongs.size());
+        musicPatch = listSongs.get(ranPositon).getPatch();
+        position = ranPositon;
+        moveSong(musicPatch);
+
+        Log.d("test",ranPositon+"");
     }
 }

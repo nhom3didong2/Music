@@ -224,6 +224,21 @@ public class Database extends SQLiteOpenHelper{
         this.close();
     }
 
+    public Music findMusic(Music music) {
+        Music mMusic = new Music();
+        createOrOpenDatabase();
+
+        String query = "Select * from music where Music_name =" + "\""
+                + music.getMusic_name() + "\"";
+        Cursor cur = db.rawQuery(query, null);
+        if (cur.moveToFirst()) {
+            // do{
+            mMusic.setMusic_name(cur.getString(cur.getColumnIndex("Music_name")));
+        }
+
+        this.close();
+        return mMusic;
+    }
     @Override
     public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
         // TODO Auto-generated method stub

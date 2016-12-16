@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="22"
-    density="xxhdpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="5650537202476"
-    token="6201178559137600104"
+    timestamp="154157721306942"
+    token="-6539128297488082219"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="2902" />
+        duration="2452" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3830" />
+        duration="3285" />
     <task
         name="verifier"
-        duration="191" />
+        duration="461" />
 
     <artifact
-        location="D:\music-ver2\trunk\music-ver2\app\build\outputs\apk\app-debug.apk"
+        location="C:\Users\Loan\Desktop\music3\trunk\music-ver2\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="5650537202476"
+        timestamp="154157721306942"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\music-ver2\trunk\music-ver2\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Loan\Desktop\music3\trunk\music-ver2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 
