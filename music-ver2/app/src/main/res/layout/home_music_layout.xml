@@ -90,7 +90,7 @@
                     android:layout_marginBottom="5dp"
                     android:gravity="left"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/norepeat" />
+                    android:src="@drawable/repeat" />
 
                 <ImageButton
                     android:id="@+id/btnPrev"

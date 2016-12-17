@@ -191,7 +191,7 @@ public class Database extends SQLiteOpenHelper{
                         .getColumnIndex("Music_patch")));
                 mMusic.setMusic_name(cur.getString(cur
                         .getColumnIndex("Music_name")));
-                musics.add(mMusic);    //fuck
+                musics.add(mMusic);
 
             } while (cur.moveToNext());
 

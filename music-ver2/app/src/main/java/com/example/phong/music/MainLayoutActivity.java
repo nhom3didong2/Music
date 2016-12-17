@@ -77,8 +77,8 @@ public class MainLayoutActivity extends AppCompatActivity
         // get data from new songs or the first run1
         Log.d("test1", System.getenv("SECONDARY_STORAGE") + "");
         try {
-            //File files = new File(System.getenv("SECONDARY_STORAGE"));
-            listSongs = findSongs(Environment.getExternalStorageDirectory());
+            File files = new File(System.getenv("EXTERNAL_STORAGE"));
+            listSongs = findSongs(files);
             // Toast.makeText(this,listSongs.size(),Toast.LENGTH_LONG).show();
             db.writeMusics(dataMusics);
 
