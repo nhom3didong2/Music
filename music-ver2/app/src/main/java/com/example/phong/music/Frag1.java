@@ -75,7 +75,9 @@ public class Frag1 extends Fragment{
 			@Override
 			public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 				Intent intent = new Intent(getActivity().getApplication(), MainActivity.class);
-				intent.putExtra("position", i);
+				Bundle b = new Bundle();
+				b.putInt("position",i);
+				intent.putExtra("position", b);
 				startActivity(intent);
 
 			}

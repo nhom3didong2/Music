@@ -119,21 +119,36 @@ public class MainActivity extends AppCompatActivity {
                     android.view.WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
         }
+        listSongs = new ArrayList<Music>();
+        Database db = new Database(this);
+        db.readMusics(listSongs);
 //        //xử lý việc hát đè lên nhau
         if(mPlayler!=null){
             mPlayler.stop();
             mPlayler.release();
         }
         //truyền dữ liệu
-        listSongs = new ArrayList<Music>();
+
         Intent i = getIntent();
         if (i != null) {
-            Bundle b = i.getExtras();
-            position = b.getInt("position");
+            Bundle b = i.getBundleExtra("position");
+            if(b != null)
+                position = b.getInt("position");
+            Bundle b1 = i.getBundleExtra("search");
+                if(b1 != null){
+                    String name = b1.getString("name");
+                    Log.d("testB",name);
+                    for(int j = 0; j<listSongs.size(); j++){
+                        String nameSong = listSongs.get(j).getMusic_name();
+                        if(nameSong.equals(name)){
+                            position = j;
+                            break;
+                        }
+                    }
+                }
         }
 
-        Database db = new Database(this);
-        db.readMusics(listSongs);
+
         musicPatch = listSongs.get(position).getPatch();
         flagReply = false;
         //show name

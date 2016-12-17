@@ -1,330 +1,330 @@
 [
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeat_1.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\repeat_1.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawer_list.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\drawer_list.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\heart.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgpress.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\bgpress.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\like.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aa.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\aa.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pause_1.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\pause_1.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\select.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scrubber1.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\scrubber1.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\m.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pause_1.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\pause_1.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_bg_low.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\next.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\next.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawer_like.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\drawer_like.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeat_1.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\repeat_1.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\select.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgdefault.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\bgdefault.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_icon.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\bg_edittext_icon.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shuffle.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\shuffle.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_fill.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\background_fill.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\like.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noshuffle.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\noshuffle.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_vector_test.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawer_like.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\drawer_like.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_icon_2.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\bg_edittext_icon_2.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeat.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\repeat.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawer_list.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\drawer_list.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progess_fill.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\progess_fill.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_icon_2.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\bg_edittext_icon_2.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sz.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\sz.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_icon_background.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shuffle.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\shuffle.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\progress.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\design_ic_visibility.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prev.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\prev.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\next_1.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\next_1.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sz.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\sz.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_bg.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play_1.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\play_1.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scrubber.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\scrubber.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\search.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custombutton.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\custombutton.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custombutton.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\custombutton.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aa.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\aa.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prev_1.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\prev_1.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\thumb.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawer_music.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\drawer_music.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\play.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawer_music.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\drawer_music.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\norepeat.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\norepeat.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play_1.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\play_1.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scrubber1.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\scrubber1.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgdefault.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\bgdefault.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\norepeat.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\norepeat.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prev.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\prev.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scrubber.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\scrubber.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\search.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\back.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pause.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\pause.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\thumb.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\design_ic_visibility.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\progress.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\next_1.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\next_1.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_fill.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\background_fill.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\design_fab_background.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sd.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\sd.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noshuffle.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\noshuffle.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\heart.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\next.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\next.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sd.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\sd.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\progressbar.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progess_fill.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\progess_fill.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_icon.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\bg_edittext_icon.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pause.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\pause.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\m.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prev_1.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\prev_1.png"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\play.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.png",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\progressbar.png"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgpress.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\bgpress.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnplay.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\btnplay.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnplay.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\btnplay.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "D:\\Music4\\trunk\\music-ver2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "D:\\Music5\\trunk\\music-ver2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeat.png",
+        "source": "D:\\Music5\\trunk\\music-ver2\\app\\src\\main\\res\\drawable\\repeat.png"
     }
 ]

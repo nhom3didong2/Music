@@ -102,7 +102,12 @@ public class SearchActivity extends AppCompatActivity{
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                String name = songfined.get(position).getMusic_name();
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                Bundle b = new Bundle();
+                b.putString("name",name);
+                intent.putExtra("search",b);
+                startActivity(intent);
             }
         });
 
